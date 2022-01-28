@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RocketNews</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="rocketnews">
+        <i class="right-background">
+            <img class="img-right-back" src="../images/read_news.jpg" alt="Read News">
+        </i>
+
+        <div class="left-background">
+            <div>
+            <i class="news">
+                <img class="img-logo" src="../images/logo.svg" alt="">
+            </i>
+            </div>
+            <div>
+            <h1 class="h1">atualize ideias e informações em 5 minutos.</h1>
+            <h2 class="h2">tudo que você precisa saber para começar seu dia bem e informado. </h2>
+            <h3 class="h3">noticias sobre o universo Rocketseat, e tudo o que você precisa para começar o dia melhor.
+                perfeito para se preparar para codar ☕</h3>
+            </div>
+
+        <form action="https://api.staticforms.xyz/submit" method="POST" id="form">
+            <input type="hidden" name="accessKey" value="b3d14b6b-15e9-44d2-94cf-3745129d8ee4">
+
+            <fieldset>
+                <legend>Insira seu melhor email:</legend>
+            </fieldset>
+            <div class="div-input">
+                <input class="email" type="email" name="email" placeholder="exemplo@seudominio.com" pattern="[^ @]*@[^ @]*" required>
+                <button class="button">
+                    <img class="vector-button-1" src="../images/Vector-send-1.svg" alt="">
+                    <img class="vector-button-2" src="../images/Vector-send-2.svg" alt="">
+                </button>
+            </div>
+        </form>
+
+            <div class="read">
+                <a href="#" target="_blank">
+                <h1 class="h1-read">deixe-me ler primeiro</h1>
+                <img class="vector-arrow-1" src="../images/Vector-arrow-1.svg" alt="">
+                <img class="vector-arrow-2" src="../images/Vector-arrow-2.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
